@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import messagebox
 import time
+
 print("Изменения")
+#print("Изменения")
 tk = Tk()
 app_running = True
 
