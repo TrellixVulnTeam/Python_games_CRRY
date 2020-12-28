@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import time
-
+print("Изменения")
 tk = Tk()
 app_running = True
 
@@ -20,7 +20,9 @@ tk.protocol("WM_DELETE_WINDOW", on_closing)
 tk.title("Игра Морской Бой")
 tk.resizable(0, 0)
 tk.wm_attributes("-topmost", 1)
-canvas = Canvas(tk, width=size_canvas_x, height=size_canvas_y, bd=0, highlightthickness=0)
+canvas = Canvas(
+    tk, width=size_canvas_x, height=size_canvas_y, bd=0, highlightthickness=0
+)
 canvas.create_rectangle(0, 0, size_canvas_x, size_canvas_y, fill="white")
 canvas.pack()
 tk.update()
