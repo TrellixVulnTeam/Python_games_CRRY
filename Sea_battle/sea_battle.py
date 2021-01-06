@@ -11,6 +11,7 @@ size_canvas_x = 600
 size_canvas_y = 600
 
 
+
 def on_closing():
     global app_running
     if messagebox.askokcancel("Выход из игры", "Хотите выйти из игры?"):
